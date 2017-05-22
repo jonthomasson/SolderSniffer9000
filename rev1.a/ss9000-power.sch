@@ -1,0 +1,278 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:semtech-sc4503
+LIBS:micrchip-mcp73831
+LIBS:usbmicro
+LIBS:motor_fan
+LIBS:spst_revb
+LIBS:SolderSniffer9000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Semtech-SC4503 U2
+U 1 1 590C92C4
+P 6905 3815
+F 0 "U2" H 6590 3410 60  0000 L CNN
+F 1 "SC4503" H 7080 3975 60  0000 L CNN
+F 2 "semtech-sc4503:SEMTECH-SC4503" H 6905 3815 60  0001 C CNN
+F 3 "" H 6905 3815 60  0001 C CNN
+	1    6905 3815
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 590C93A2
+P 6110 4245
+F 0 "C4" H 6202 4291 50  0000 L CNN
+F 1 "56nF" H 6202 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6110 4245 50  0001 C CNN
+F 3 "" H 6110 4245 50  0001 C CNN
+	1    6110 4245
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 590C944A
+P 5745 3920
+F 0 "C3" H 5837 3966 50  0000 L CNN
+F 1 "2.2uF" H 5837 3875 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5745 3920 50  0001 C CNN
+F 3 "" H 5745 3920 50  0001 C CNN
+	1    5745 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 590C94C5
+P 6110 3700
+F 0 "R4" H 6180 3746 50  0000 L CNN
+F 1 "15K" V 6110 3620 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 6040 3700 50  0001 C CNN
+F 3 "" H 6110 3700 50  0001 C CNN
+	1    6110 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 590C9573
+P 6895 3310
+F 0 "L1" V 6840 3365 50  0000 C CNN
+F 1 "2.7uH" V 6960 3315 50  0000 C CNN
+F 2 "Bourns_SRN4018_2R7M:Bourns_SRN4018_2R7M" H 6895 3310 50  0001 C CNN
+F 3 "" H 6895 3310 50  0001 C CNN
+	1    6895 3310
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 590C9643
+P 7630 3685
+F 0 "C5" H 7722 3731 50  0000 L CNN
+F 1 "2.2pF" H 7722 3640 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7630 3685 50  0001 C CNN
+F 3 "" H 7630 3685 50  0001 C CNN
+	1    7630 3685
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 590C9707
+P 8125 3650
+F 0 "R5" H 8195 3696 50  0000 L CNN
+F 1 "866K" V 8125 3550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 8055 3650 50  0001 C CNN
+F 3 "" H 8125 3650 50  0001 C CNN
+	1    8125 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 590C9814
+P 8125 4330
+F 0 "R6" H 8195 4376 50  0000 L CNN
+F 1 "100K" V 8125 4230 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 8055 4330 50  0001 C CNN
+F 3 "" H 8125 4330 50  0001 C CNN
+	1    8125 4330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 590C993A
+P 8475 3980
+F 0 "C6" H 8567 4026 50  0000 L CNN
+F 1 "4.7uF" H 8567 3935 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8475 3980 50  0001 C CNN
+F 3 "" H 8475 3980 50  0001 C CNN
+	1    8475 3980
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D1
+U 1 1 590C9A2D
+P 7340 3310
+F 0 "D1" H 7435 3415 50  0000 C CNN
+F 1 "10BQ015" H 7340 3215 50  0000 C CNN
+F 2 "w_smd_diode:do214aa" H 7340 3310 50  0001 C CNN
+F 3 "" H 7340 3310 50  0001 C CNN
+	1    7340 3310
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6110 4145 6110 3850
+Wire Wire Line
+	6405 4015 6110 4015
+Connection ~ 6110 4015
+Wire Wire Line
+	6755 3515 6755 3310
+Wire Wire Line
+	5380 3310 6795 3310
+Wire Wire Line
+	6995 3310 7190 3310
+Wire Wire Line
+	7055 3310 7055 3515
+Connection ~ 7055 3310
+Wire Wire Line
+	7355 4015 8125 4015
+Wire Wire Line
+	7630 4015 7630 3785
+Wire Wire Line
+	7630 3585 7630 3310
+Wire Wire Line
+	7490 3310 8700 3310
+Wire Wire Line
+	8125 3310 8125 3500
+Connection ~ 7630 3310
+Wire Wire Line
+	8125 3800 8125 4180
+Connection ~ 8125 4015
+Connection ~ 7630 4015
+Wire Wire Line
+	8125 4555 8125 4480
+Wire Wire Line
+	8475 4555 8475 4080
+Wire Wire Line
+	8475 3310 8475 3880
+Connection ~ 8125 3310
+Wire Wire Line
+	6110 4345 6110 4555
+Connection ~ 8125 4555
+Wire Wire Line
+	6905 4555 6905 4365
+Connection ~ 6905 4555
+$Comp
+L GND #PWR08
+U 1 1 590D4609
+P 8475 4555
+F 0 "#PWR08" H 8475 4305 50  0001 C CNN
+F 1 "GND" H 8480 4382 50  0000 C CNN
+F 2 "" H 8475 4555 50  0001 C CNN
+F 3 "" H 8475 4555 50  0001 C CNN
+	1    8475 4555
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6110 3550 6110 3310
+Connection ~ 6755 3310
+Wire Wire Line
+	5745 3310 5745 3820
+Connection ~ 6110 3310
+Wire Wire Line
+	5745 4020 5745 4555
+Connection ~ 6110 4555
+Text Label 8700 3310 2    60   ~ 0
++12V
+Connection ~ 8475 3310
+Connection ~ 5745 3310
+Connection ~ 5745 4555
+Wire Wire Line
+	5745 4555 8475 4555
+$Comp
+L CONN_01X02 P1
+U 1 1 590F1EDC
+P 8900 3360
+F 0 "P1" H 8978 3401 50  0000 L CNN
+F 1 "80MM Fan Connector" H 8978 3310 50  0000 L CNN
+F 2 "Connector_OnShore_OSTTE020104:Connector_OnShore_OSTTE020104" H 8900 3360 50  0001 C CNN
+F 3 "" H 8900 3360 50  0001 C CNN
+	1    8900 3360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3410 8700 3510
+$Comp
+L GND #PWR09
+U 1 1 590F206F
+P 8700 3510
+F 0 "#PWR09" H 8700 3260 50  0001 C CNN
+F 1 "GND" H 8705 3337 50  0000 C CNN
+F 2 "" H 8700 3510 50  0001 C CNN
+F 3 "" H 8700 3510 50  0001 C CNN
+	1    8700 3510
+	1    0    0    -1  
+$EndComp
+Text HLabel 4380 3310 0    60   Input ~ 0
++VBAT
+$Comp
+L Motor_Fan F1
+U 1 1 591BDD66
+P 10340 4280
+F 0 "F1" H 10361 4737 60  0000 C CNN
+F 1 "Motor_Fan" H 10361 4631 60  0000 C CNN
+F 2 "Motor_Fan:Motor_Fan" H 10365 4255 60  0001 C CNN
+F 3 "" H 10365 4255 60  0001 C CNN
+	1    10340 4280
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST_REVB SW1
+U 1 1 591EF7DF
+P 4880 3310
+F 0 "SW1" H 4880 3575 50  0000 C CNN
+F 1 "SW_POWER" H 4880 3484 50  0000 C CNN
+F 2 "Switches_C&K_SS_12D07:Switches_C&K_SS12D07" H 4880 3310 50  0001 C CNN
+F 3 "" H 4880 3310 50  0000 C CNN
+	1    4880 3310
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
